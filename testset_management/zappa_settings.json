@@ -1,0 +1,19 @@
+{
+    "prod": {
+        "aws_region": "ap-northeast-2",
+        "certificate_arn": "arn:aws:acm:us-east-1:526094755604:certificate/c309d9f8-3c2b-4585-9dcf-e8707b23dd14",
+        "django_settings": "testset_management.settings",
+        "domain": "handwritten-testset-manager.mathpresso.net",
+        "keep_warm": false,
+        "profile_name": "default",
+        "project_name": "zappa-handwritten-testset-manager",
+        "role_name": "handwritten-testset-management-ZappaLambdaExecutionRole",
+        "runtime": "python3.6",
+        "s3_bucket": "zappa-handwritten-testset-manager",
+        "timeout_seconds": 100,
+        "vpc_config": {
+            "SubnetIds": ["subnet-8b2035e2", "subnet-3b223752"],
+            "SecurityGroupIds": ["sg-7c1f7914"]
+        }
+    }
+}
